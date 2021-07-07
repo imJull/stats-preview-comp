@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+body{
+    background: hsl(233, 47%, 7%);
+    
+}
+.page{
+    height: 100vh;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-container{
+    width: 80%;
+    height: 500px;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-container{
+    width: 80%;
+    padding: 25px;
+    margin: 25px;
+}
+
+.text-container > h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: hsl(0, 0%, 100%)
+}
+
+.text-container > p{
+    height: 100px; 
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.numbers > p{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.number{
+    color: hsl(0, 0%, 100%);
+    margin-left: 15px;    
+}
+
+.spa{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;
+    font-size: 10px;
+}
+
+h1 > ext{
+    color:hsl(277, 64%, 61%) ;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-container{
+    height: 100%;
+    width: 50%;
+    background-color: hsl(277, 64%, 61%);
+}
+
+.img-container img{
+    height: 100%;
+    opacity: 0.4;
+}
+
+
+
+
+
+
+
+
+
